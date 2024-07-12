@@ -22,14 +22,13 @@ Spotify API é um projeto que visa consumir a API do Spotify para buscar informa
 ## 🚀 Como executar
 
 - Clone o repositório
-- Abra o projeto no IntelliJ IDEA
-- Crie um arquivo `application.properties` na pasta `src/main/resources`
-- Adicione a seguinte linha ao arquivo `application.properties`:
+- Crie um arquivo `.env` na raiz do projeto
+- Adicione as seguintes variáveis de ambiente ao arquivo `.env`
 ```properties
-spotify.api.client.id=YOUR_CLIENT_ID
-spotify.api.client.secret=YOUR_CLIENT_SECRET
+SPOTIFY_CLIENT_ID=YOUR_CLIENT_ID
+SPOTIFY_CLIENT_SECRET=YOUR_CLIENT_SECRET
 ```
-- Substitua `YOUR_CLIENT_ID` e `YOUR CLIENT_SECRET` pelos valores obtidos ao criar um aplicativo no [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/applications)
+- Substitua `YOUR_CLIENT_ID` e `YOUR_CLIENT_SECRET` pelos valores obtidos ao criar um aplicativo no [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/applications)
 - Execute o projeto
 
 ## 📄 Licença
