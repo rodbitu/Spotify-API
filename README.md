@@ -6,31 +6,31 @@
   <img alt="License" src="https://img.shields.io/static/v1?label=Version&message=1.0&color=8257E5&labelColor=000000">
 </p>
 
-## ✨ Tecnologias
+## ✨ Technologies
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+This project was developed using the following technologies:
 
 * Java 22
 * Spring Boot
 * Spring Cloud Open Feign
 * Spotify API
 
-## 💻 Projeto
+## 💻 Project
 
-Spotify API é um projeto que visa consumir a API do Spotify para buscar informações de artistas, álbuns e músicas.
+Spotify API is a project aimed at consuming the Spotify API to retrieve information about artists, albums, and songs.
 
-## 🚀 Como executar
+## 🚀 How to run
 
-- Clone o repositório
-- Crie um arquivo `.env` na raiz do projeto
-- Adicione as seguintes variáveis de ambiente ao arquivo `.env`
+- Clone the repository
+- Create a `.env` file in the project root
+- Add the following environment variables to the `.env` file
 ```properties
 SPOTIFY_CLIENT_ID=YOUR_CLIENT_ID
 SPOTIFY_CLIENT_SECRET=YOUR_CLIENT_SECRET
 ```
-- Substitua `YOUR_CLIENT_ID` e `YOUR_CLIENT_SECRET` pelos valores obtidos ao criar um aplicativo no [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/applications)
-- Execute o projeto
+- Replace `YOUR_CLIENT_ID` and `YOUR_CLIENT_SECRET` with the values obtained when creating an application in the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/applications)
+- Run the project
 
-## 📄 Licença
+## 📄 License
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+This project is under the MIT license. See the [LICENSE](LICENSE.md) file for more details.
